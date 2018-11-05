@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana;
+}
+
+.wrap {
+	width: 80vw;
+	margin: 0 auto 0;
+}
+
+.page-title {
+	text-align: center;
+	margin: 0 0 3vw 0;
+}
+
+.page-title h1 {
+	margin: 1vw 0 .7vw 0;
+}
+
+.prose {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.prose p {
+	text-indent: 3vw;
+	font-size: 1.17vw;
+	line-height: 1.7vw;
+	margin: 0 0 1.5vw 0;
+}
+
+.prose p:last-of-type {
+	margin: 0;
+}
+
+.read {
+	text-decoration: line-through;
+	color: lightpink;
+	margin: 10vw 0 0 0;
+
+	-webkit-order: 2;
+		-moz-order: 2;
+		 -ms-order: 2;
+		  -o-order: 2;
+			  order: 2;
+	}
+
+.non-read {
+	-webkit-order: 1;
+		-moz-order: 1;
+		 -ms-order: 1;
+		  -o-order: 1;
+			  order: 1;
+}
